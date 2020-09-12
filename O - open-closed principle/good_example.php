@@ -6,19 +6,19 @@ interface Remuneravel {
 
 class ContratoClt implements Remuneravel {
     public function remuneracao() {
-        return "Regras de remuneração para CLT"
+        return "Regras de remuneração para CLT";
     }
 }
 
 class Estagio implements Remuneravel {
     public function remuneracao() {
-        return "Regras de remuneração para Estágio"
+        return "Regras de remuneração para Estágio";
     }
 }
 
 class ContratoPj implements Remuneravel {
     public function remuneracao() {
-        return "Regras de remuneração para PJ"
+        return "Regras de remuneração para PJ";
     }
 }
 

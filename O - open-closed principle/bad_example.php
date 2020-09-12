@@ -2,24 +2,24 @@
 
 class ContratoClt {
     public function calcularSalario() {
-        return "Regras de remuneração para CLT"
+        return "Regras de remuneração para CLT";
     }
 }
 
 class Estagio {
     public function bolsaAuxilio() {
-        return "Regras de remuneração para Estágio"
+        return "Regras de remuneração para Estágio";
     }
 }
 
 class ContratoPj {
     public function calcularPagamento() {
-        return "Regras de remuneração para PJ"
+        return "Regras de remuneração para PJ";
     }
 }
 
 class FolhaDePagamento {
-    public function ($calcular) {
+    public function calcular() {
         $salario = 0;
 
         if ($funcionario instanceof ContratoClt) {

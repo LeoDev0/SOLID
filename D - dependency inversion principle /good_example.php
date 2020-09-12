@@ -20,12 +20,12 @@ class UsuarioDAO {
     private $db;
 
     public function __construct(DBConnection $dbCon) { # injeção de dependência
-        $this->db = $dbCon
+        $this->db = $dbCon;
     }
 }
 
 
-$dbCon = new MongoConnection(...);
+$dbCon = new MongoConnection();
 
 $usuarioDAO = new UsuarioDAO($dbCon);
 $usuarioDAO2 = new UsuarioDAO($dbCon);

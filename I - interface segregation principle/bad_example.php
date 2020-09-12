@@ -1,9 +1,9 @@
 <?php
 
 interface Aves {
-    public function setLocation($lat, $lng);
-    public function setAltitude($alt);
-    public function render();
+    public function setLocation($lat, $lng) {}
+    public function setAltitude($alt) {}
+    public function render() {}
 }
 
 class Papagaio implements Aves {
